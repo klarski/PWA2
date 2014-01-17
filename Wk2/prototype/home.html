@@ -3,25 +3,33 @@
 <head>
 <meta charset="utf-8" />
 <title>Two Do App</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
+  <div id="wrapper">
 	<header>
-		<a href="index.html"><img src="images/logo.png"></a>
-			<nav>
-				<a href="">Log In</a>
-				<a href="">Sign Up</a>
-			</nav>
+		<nav>
+			<a id="logo" href="index.html"><img src="images/logo.png"></a>	
+			<a href="">Log In</a>
+			<a class="button" href="">Sign Up</a>
+		</nav>
 	</header>
+
 
 	<div id="cta">
 		<h1>Simple project management & time management at your fingertips</h1>
-		<h2>Start taking control of your projects today. No cost. Easy sign up. Ger started today!</h2>
-		<a class="button" href="">Sign Up for Free</a>
+		<img src="images/cta-img.png">
+		<div id="cta-content">
+			<h2>Start taking control of</br>your projects today. No</br>cost. Easy sign up. Get</br>started today!</h2>
+			<a class="button" href="">Sign Up for Free</a>
+		</div>
 	</div>
 
-	<div id="features">
+	<div id="app-features">
 		<div class="feature">
 			<img src="images/feature1.png">
 			<h2>Manage Multiple Projects</h2>
@@ -47,12 +55,13 @@
 			<li><a href="">Sign Up</a></li>
 		</ul>
 		<p>&copy; 2014 by Kristen Kozinski</p>
-		<p>Connect with us on social media.</p>
-		<a href="http://facebook.com"><img src="images/fb.png"></a>
-		<a href="http://twitter.com"><img src="images/twitter.png"></a>
-
+			<div id="social">
+			<p>Connect with us on social media.</p>
+			<a href="http://facebook.com"><img src="images/fb.png"></a>
+			<a href="http://twitter.com"><img src="images/twitter.png"></a>
+			</div>
 	</footer>
-
+  </div>
 
 </body>
 </html>

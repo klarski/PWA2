@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <title>Two Do App</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 
@@ -15,7 +16,7 @@
 		<nav>
 			<a id="logo" href="home.html"><img src="images/logo.png"></a>	
 			<a href="#openModal">Log In</a>
-			<a class="button" href="">Sign Up</a>
+			<a class="button"class="modalDialog" href="#signupModal">Sign Up</a>
 		</nav>
 	</header>
 
@@ -24,16 +25,28 @@
 			<a href="#close" title="Close" class="close">X</a>
 			<h2>Log In</h2>
 			<form>
-			Username: <input type="text" name="username"><br>	
-			Password: <input type="password" name="pwd"><br>
+			<label></label>Username: <input type="text" name="username"><br></label><label>Password: <input type="password" name="pwd"><br></label>
 			<a href="">Forgot Password?</a>
 			<a href="">Sign Up</a></br>
 			<a href="project-dashboard.html" class="popup-button">Log In</a>
 		</form>
 		</div>
-
 	</div>
 
+	<div id="signupModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h2>Sign Up</h2>
+			<form>
+			<label>First Name: <input type="text" name="firstname"><br></label>	
+			<label>Last Name: <input type="text" name="lastname"><br></label>		<label>Email Address: <input type="email" name="email"><br></label>
+			<label>Username: <input type="text" name="username"><br></label>	
+			<label>Password: <input type="password" name="pwd"><br></label>
+			<label>Retype Password: <input type="password" name="pwd"><br></label>
+			<a href="project-dashboard.html" class="popup-button">Log In</a>
+		</form>
+		</div>
+	</div>
 
 	<div id="cta">
 		<h1>Simple project management & time management at your fingertips</h1>

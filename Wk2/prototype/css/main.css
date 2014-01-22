@@ -68,10 +68,10 @@ a{
 	width: 290px;
 	height: 62px;
 	background-color: #00a0b0;
-	padding: 10px 50px; 
+	margin: 50px;
+	padding: 15px 100px; 
 	color: #fff;
 	font-size: 24px;
-	margin: 10px;
 	text-decoration: none;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -195,12 +195,25 @@ footer img{
 	Project Dashboard
 
 ************************/
+.dash-intro{
+	margin-top: 25px;
 
+}
+
+.dash-intro ul li{
+	list-style-type: none;
+	float: left;
+	padding-left: 15px;
+}
+
+.all-projects{
+	clear: both;
+
+}
 
 .project-task{
 	float: left;
 	margin: 15px;
-	float: left;
 	width: 290px;
 	height:290px;
 	background-color: #fff;
@@ -210,14 +223,19 @@ footer img{
 
 .project-task h1{
 	text-align: center;
-	padding-bottom: 5px;
+	padding: 5px 5px 10px 5px;
 	border-bottom: 1px solid #00a0b0;
 	margin-bottom: 10px;
 }
 
 .project-task p{
+	padding: 0 5px;
 	font-size: 24px;
 	line-height: 31px;
+}
+
+.dashboard-links{
+	margin-top: 45px; 
 }
 
 
@@ -240,8 +258,8 @@ footer img{
 }
 
 .modalDialog > div {
-	width: 449px;
-	height: 365px;
+	width: 500px;
+	height: 500px;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -257,15 +275,30 @@ footer img{
 	margin-left: 50px;
 }
 
+
 .modalDialog form{
 	font-size: 24px;
 	text-align: left;
+	line-height: 30px;
 }
 
-input{
+.modalDialog p {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+	width: 50px;
+
+}
+
+/*.modalDialog input{
+	display: inline-block;
 	width:250px;
 	height: 30px;
-}
+	float: left;
+	clear: left;
+}*/
+
 
 .close {
 	background: #606061;

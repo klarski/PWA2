@@ -11,25 +11,33 @@
 
 <body>
 
-	<nav>
-		<a id="logo" href="index.html"><img src="images/logo.png"></a>	
-		<a href="">My Account</a>
-		<a class="button" href="">Log Out</a>
-	</nav>
+<div id="wrapper">
+	<header>
+		<nav>
+			<a id="logo" href="index.html"><img src="images/logo.png"></a>	
+			<a href="">My Account</a>
+			<a class="button" href="home.html">Log Out</a>
+		</nav>
+	</header>
 
-	<h1>Task Dashboard</h1>
-	<a href="" class="button">Return to Projects</a>
-	<a class="add-new" href="">Add New Project</a>
+	<div class="dash-intro">
+		<ul>
+			<li><h1>Project Name</h1></li>
+			<li><a href="" class="button">Return to Projects</a></li>
+			<li><a class=" button" href="">Add New Task</a></li>
+		</ul>
+	</div>
 
-	<div class="project-task">
+	<div class="all-projects">
+	<div class="project-task""grid_3">
 		<h1>Task 1 Name</h1>
 		<p>Due Date: 01/10/2014</p>
 		<p>Status: Normal</p>
 		<p>Hours Worked: 05:20:00</p>
 		<div class="dashboard-links">
-			<a href="">View Task Details</a>
-			<a href="">Edit Task</a>
-			<a href="">Delete Task</a>
+			<a class="dash-button" href="">View Details</a>
+			<a class="dash-button" href="">Edit</a>
+			<a class="dash-button" href="">Delete</a>
 		</div>
 	</div>
 
@@ -39,25 +47,26 @@
 		<p>Status: Normal</p>
 		<p>Hours Worked: 00:00:00</p>
 		<div class="dashboard-links">
-			<a href="">View Task Details</a>
-			<a href="">Edit Task</a>
-			<a href="">Delete Task</a>
+			<a class="dash-button" href="">View Details</a>
+			<a class="dash-button" href="">Edit</a>
+			<a class="dash-button" href="">Delete</a>
 		</div>
 
 	</div>
 
 	<div class="project-task">
 		<h1>Task 3 Name</h1>
-		<p>Client: Delegator</p>
 		<p>Due Date: 01/31/2014</p>
 		<p>Status: Normal</p>
 		<p>Hours Worked: 00:00:00</p>
 		<div class="dashboard-links">
-			<a href="">View Task Details</a>
-			<a href="">Edit Task</a>
-			<a href="">Delete Task</a>
+			<a class="dash-button" href="">View Details</a>
+			<a class="dash-button" href="">Edit</a>
+			<a class="dash-button" href="">Delete</a>
 		</div>
 	</div>
+	</div>
+</div>
 
 </body>
 </html>

@@ -63,14 +63,13 @@ a{
 	padding: 10px;
 	color: #fff;
 	margin: 10px;
+	margin-top: 250px;
 }
 
 .popup-button{
-	width: 290px;
-	height: 62px;
 	background-color: #00a0b0;
-	margin: 50px;
-	padding: 15px 100px; 
+	margin: 10px;
+	padding: 10px 120px; 
 	color: #fff;
 	font-size: 24px;
 	text-decoration: none;
@@ -276,43 +275,46 @@ footer img{
 	height: 500px;
 	position: relative;
 	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
+	padding: 15px 35px 13px 35px;
 	border-radius: 10px;
-	background: #fff;
+	background: #565656;
 }
 
-.modalDialog h2{
+
+.modalDialog h1{
+	color: #9ad7da;
+	border-bottom: 2px solid #9ad7da;
 	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .modalDialog a{
-	margin-left: 50px;
+	margin-left: 15px;
+
 }
 
 
-.modalDialog form{
-	font-size: 24px;
-	text-align: left;
-	line-height: 30px;
-}
-
-.modalDialog p {
-	display: inline-block;
-	float: left;
+.modalDialog form {
+	font-size: 18px;
+	color: #fff;
 	text-align: right;
-	margin-right: 10px;
-	width: 50px;
-
+	line-height: 30px;
+	margin-bottom: 20px;
 }
 
-/*.modalDialog input{
-	display: inline-block;
-	width:250px;
+.modalDialog input, .modalDialog select{
+	width: 300px;
 	height: 30px;
-	float: left;
-	clear: left;
-}*/
+	margin: 5px 10px;
+}
 
+.modalDialog textarea{
+	width: 300px;
+	height: 70px;
+	margin: 5px 10px;
+}
 
 .close {
 	background: #606061;

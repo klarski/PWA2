@@ -23,13 +23,34 @@
 	<div class="dash-intro">
 		<ul>
 			<li><h1>Project Name</h1></li>
-			<li><a href="" class="button">Return to Projects</a></li>
-			<li><a class=" button" href="">Add New Task</a></li>
+			<li><a href="project-dashboard.html" class="button">Return to Projects</a></li>
+			<li><a class=" button" href="#signupModal">Add New Task</a></li>
 		</ul>
 	</div>
 
+
+		<div id="signupModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h1>Add A New Task</h1>
+			<form>
+			<label>Name: <input type="text" name="projectname"><br></label>	
+			<label>Due Date: <input type="text" id="datepicker"><br></label>
+			<label>Notes:</label><textarea id="notes"></textarea></br>
+			<label>Status:</label>
+			<select name="status">
+			<option value="urgent">Urgent</option>
+			<option value="urgent">Urgent</option>
+			<option value="urgent">Urgent</option>
+			</select>
+			</br>
+			<a href="project-dashboard.html" class="popup-button">Add New Project</a>
+		</form>
+		</div>
+	</div>
+
 	<div class="all-projects">
-	<div class="project-task""grid_3">
+	<div class="project-task">
 		<h1>Task 1 Name</h1>
 		<p>Due Date: 01/10/2014</p>
 		<p>Status: Normal</p>

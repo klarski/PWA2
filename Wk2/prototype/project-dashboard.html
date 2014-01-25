@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
@@ -22,12 +23,32 @@
 	<div class="dash-intro">
 		<ul>
 		<li><h1>Project Dashboard</h1></li>
-		<li><a id="new-project" class="button" href="">Add New Project</a></li>
+		<li><a id="new-project" class="button" href="#signupModal">Add New Project</a></li>
 		</ul>
 	</div>
 
+		<div id="signupModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h1>Add A New Project</h1>
+			<form>
+			<label>Name: <input type="text" name="projectname"><br></label>	
+			<label>Client: <input type="text" name="clientname"><br></label>	
+			<label>Due Date: <input type="text" id="datepicker"><br></label>
+			<label>Status:</label>
+			<select name="status">
+			<option value="urgent">Urgent</option>
+			<option value="urgent">Urgent</option>
+			<option value="urgent">Urgent</option>
+			</select>
+			</br>
+			<a href="project-dashboard.html" class="popup-button">Add New Project</a>
+		</form>
+		</div>
+	</div>
+
 	<div class="all-projects">
-	<div class="project-task" "grid_3">
+	<div class="project-task">
 		<h1>Project 1 Name</h1>
 		<p>Client: Delegator</p>
 		<p>Due Date: 01/31/2014</p>

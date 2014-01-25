@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	width: 100%;
+	background-color: #9ad7da;
+
+}
+
+#wrapper{
+	width: 960px;
+	margin-left: auto;
+  	margin-right: auto; 
+}
+
+h1, h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #565656;
+}
+
+h1{
+	font-size: 32px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+p{
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+	font-size: 16;
+	color: #565656;
+}
+
+a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.button{
+	background-color: #00a0b0;
+	padding: 10px 20px; 
+	color: #fff;
+	font-size: 24px;
+	margin: 10px;
+	text-decoration: none;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.dash-button{
+	width: 75px;
+	background-color: #00a0b0;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	margin: 10px;
+	margin-top: 250px;
+}
+
+.popup-button{
+	background-color: #00a0b0;
+	margin: 10px;
+	padding: 10px 120px; 
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+.dash-button:hover{
+	background-color: #79CCCA;
+	color: #fff;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+header{
+	height: 90px;
+	width: 200%;
+	background-color: #fff;
+	margin-left: -300px;
+}
+nav a{
+	float: left;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 20px 15px 10px 10px;
+}
+
+#logo{
+	margin-top: -10px;
+	margin-right: 375px;
+	margin-left: 325px;
+}
+
+
+
+.button:hover{
+	background-color: #79CCCA;
+	padding: 10px 20px; 
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+#cta{
+	clear: both;
+	height: 390px;
+	background-color: #9ad7da;
+	background-size: cover;
+}
+
+#cta h1{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#cta img{
+	padding-left: 100px;
+}
+
+#cta-content{
+	padding-left: 650px;
+	padding-top: 45px;
+	line-height: 36px;
+}
+
+#cta-content h2{
+	padding-bottom: 20px;
+}
+
+
+
+#cta img{
+	float: left;
+	margin-top: 20px;
+/*	margin-left: 75px;
+	margin-right: 100px;*/
+}
+
+#app-features{
+	width: 200%;
+	margin-left: -300px;
+	height: 250px;
+	background-color: #fff;
+	padding: 20px;
+}
+
+#threefeatures{
+	margin-left: 300px;
+}
+
+.feature img{
+	padding-bottom: 5px;
+}
+
+.feature h2{
+	padding-bottom: 5px;
+}
+
+.feature{
+	margin: 20px 10px 5px 25px;
+	width: 270px;
+	height: 250px;
+	float: left;
+	text-align: center;
+}
+
+footer{
+	padding-left: 25px;
+	padding-top: 10px; 
+	clear: both;
+	height: 150px;
+	background-color: #9ad7da;
+}
+
+footer li a{
+	text-decoration: none;
+}
+
+footer li{
+	list-style-type: none;
+}
+
+footer img{
+	float: right;
+}
+
+
+
+/************************
+	Project Dashboard
+
+************************/
+.dash-intro{
+	margin-top: 25px;
+
+}
+
+.dash-intro ul li{
+	list-style-type: none;
+	float: left;
+	padding-left: 15px;
+}
+
+.all-projects{
+	clear: both;
+
+}
+
+.project-task{
+	float: left;
+	margin: 15px;
+	width: 290px;
+	height:290px;
+	background-color: #fff;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.project-task h1{
+	text-align: center;
+	padding: 5px 5px 10px 5px;
+	border-bottom: 1px solid #00a0b0;
+	margin-bottom: 10px;
+}
+
+.project-task p{
+	padding: 0 5px;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.dashboard-links{
+	margin-top: 45px; 
+}
+
+
+.modalDialog {
+	position: fixed;
+	font-family: 'Lato', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 10% auto;
+	padding: 15px 35px 13px 35px;
+	border-radius: 10px;
+	background: #565656;
+}
+
+
+.modalDialog h1{
+	color: #9ad7da;
+	border-bottom: 2px solid #9ad7da;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.modalDialog a{
+	margin-left: 15px;
+
+}
+
+
+.modalDialog form {
+	font-size: 18px;
+	color: #fff;
+	text-align: right;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.modalDialog input, .modalDialog select{
+	width: 300px;
+	height: 30px;
+	margin: 5px 10px;
+}
+
+.modalDialog textarea{
+	width: 300px;
+	height: 70px;
+	margin: 5px 10px;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+

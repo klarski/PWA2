@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Two Do App</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+ <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+	<header>
+		<nav>
+			<a id="logo" href="home.html"><img src="images/logo.png"></a>	
+			<a href="#openModal">Log In</a>
+			<a class="button"class="modalDialog" href="#signupModal">Sign Up</a>
+		</nav>
+	</header>
+
+	<div id="openModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h1>Log In</h1>
+			<form>
+			<label>Username: <input type="text" name="username"><br></label>
+			<label>Password: <input type="password" name="pwd"><br></label>
+			<a href="">Forgot Password?</a>
+			<a href="">Sign Up</a></br>
+			<a href="project-dashboard.html" class="popup-button">Log In</a>
+		</form>
+		</div>
+	</div>
+
+	<div id="signupModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h1>Sign Up</h1>
+			<form>
+			<label>First Name: <input type="text" name="firstname"><br></label>	
+			<label>Last Name: <input type="text" name="lastname"><br></label>		<label>Email Address: <input type="email" name="email"><br></label>
+			<label>Username: <input type="text" name="username"><br></label>	
+			<label>Password: <input type="password" name="pwd"><br></label>
+			<label>Retype Password: <input type="password" name="pwd"><br></label>
+			<a href="project-dashboard.html" class="popup-button">Log In</a>
+		</form>
+		</div>
+	</div>
+
+	<div id="cta">
+		<h1>Simple project management & time management at your fingertips</h1>
+		<img src="images/cta-img.png">
+		<div id="cta-content">
+			<h2>Start taking control of</br>your projects today. No</br>cost. Easy sign up. Get</br>started today!</h2>
+			<a class="button" href="">Sign Up for Free</a>
+		</div>
+	</div>
+
+	<div id="app-features">
+		<div id="threefeatures">
+			<div class="feature">
+				<img src="images/feature1.png">
+				<h2>Manage Multiple Projects</h2>
+				<p>From you dashboard you can view and manage multiple projects</p>
+			</div>
+
+			<div class="feature">
+				<img src="images/feature2.png">
+				<h2>Project Time Tracking</h2>
+				<p>Keep track of how much time you've spent on each project and task so you can stay on budget</p>
+			</div>
+
+			<div class="feature">
+				<img src="images/feature3.png">
+				<h2>Easy To Use Interface</h2>
+				<p>Two Do was designed with you in mind. Quick sign up. Simple organization. Beautiful design.</p>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<ul>
+			<li><a href="">Log In</a></li>
+			<li><a href="">Sign Up</a></li>
+		</ul>
+		<p>&copy; 2014 by Kristen Kozinski</p>
+			<div id="social">
+			<p>Connect with us on social media.</p>
+			<a href="http://facebook.com"><img src="images/fb.png"></a>
+			<a href="http://twitter.com"><img src="images/twitter.png"></a>
+			</div>
+	</footer>
+  </div>
+
+</body>
+</html>
